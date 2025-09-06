@@ -11,6 +11,11 @@ import { useAuth } from "@/contexts/AuthContext";
 import { supabase } from "@/lib/supabase";
 import { Loader2, CreditCard, Shield } from "lucide-react";
 
+// const { email, gameTitle, amount } = await req.json();
+// this is where the user completed their purchase 
+// use supabase to handle emailing system
+//
+
 interface Game {
   id: string;
   title: string;
